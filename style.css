@@ -221,6 +221,7 @@ header .title-box{
 
 .portfolio{
 	margin-top: 60px;
+	padding-left: 327px;
 }
 
 .portfolio .work{
@@ -382,14 +383,12 @@ footer .update{
 	header .title-box{
 		width: 300px;
 		height: 100px;
-		border: 1px solid black;
 		text-align: center;
 		z-index: 123;
 	}
 
 	.title-box .up{
 		height: 50%;
-		border-bottom: 1px solid black;
 		font-size: 32px;
 		font-weight: bolder;
 		line-height: 45px;
@@ -424,9 +423,7 @@ footer .update{
 	.portfolio .work:nth-child(2n-1){
 		margin-left: 0;
 	}
-	.portfolio-content{
-		position: relative;
-	}
+	
 	.portfolio-content:after{
 		content: '';
 		width: 100%;
